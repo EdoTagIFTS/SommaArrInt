@@ -6,13 +6,14 @@ public class App {
         System.out.println("Quanti numeri vuoi inserire?: ");
         int n = scanner.nextInt();
         int[] arr = new int[n];
-        
+        System.out.println("Inserisci i numeri da sommare: ");
         for (int i=0; i<n; i++){
             arr[i]=scanner.nextInt();
         }
         
         System.out.println("La somma dei numeri inseriti è: " + Somma(arr));
-
+        
+        scanner.close();
     }
 
     public static int Somma(int[] arr){
