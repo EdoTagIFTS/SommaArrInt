@@ -10,6 +10,10 @@ public class App {
         for (int i=0; i<=n; i++){
             arr[i]=scanner.nextInt();
         }
+        
+        System.out.println("La somma dei numeri inseriti è: " + Somma(arr));
+
+    }
 
     public static int Somma(int[] arr){
         int sum = 0;
